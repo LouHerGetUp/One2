@@ -20,31 +20,13 @@ A PyTorch implementation of One<sup>2</sup> for intrusion detection across multi
 
 ```bash
 # Create a new conda environment
-conda create -n hgt python=3.8
+conda create -n hgt-ids python=3.8 -y
 
 # Activate the environment
-conda activate hgt
+conda activate hgt-ids
 ```
 
-### Install PyTorch and PyTorch Geometric
-
-```bash
-# Install PyTorch (CUDA 11.8 - adjust based on your CUDA version)
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-
-# Install PyTorch Geometric
-pip install torch-geometric
-```
-
-### Install Additional Dependencies
-
-```bash
-# Install other required packages
-pip install pandas numpy scikit-learn matplotlib seaborn
-pip install tensorboard tqdm argparse
-```
-
-### Alternative: Install from requirements.txt
+### Install from requirements.txt
 
 If you have a `requirements.txt` file:
 

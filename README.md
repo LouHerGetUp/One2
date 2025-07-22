@@ -115,17 +115,6 @@ python main.py --dataset CIC-IDS2017 --roc True --epochs 50
 tensorboard --logdir=logs/
 ```
 
-### Multi-GPU Training
-
-The code supports multi-GPU training. Set the GPUs in the script:
-
-```bash
-export CUDA_VISIBLE_DEVICES=0,1,2,3
-python main.py --dataset TON_IoT --epochs 100
-```
-
----
-
 ## 📊 Results and Outputs
 
 - **Model checkpoints**: Saved in `./model/` directory

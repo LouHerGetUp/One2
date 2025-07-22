@@ -71,11 +71,7 @@ python main.py \
     --cuda cuda:0
 
 # Evaluation only (no training)
-python main.py --dataset TON_IoT --train_if False --roc True
-
-# Enable ROC curve generation
-python main.py --dataset CIC-IDS2017 --roc True --epochs 50
-```
+python main.py --dataset CIC-IDS2017 --train_if False --roc True
 
 ### Supported Datasets
 
@@ -92,7 +88,7 @@ python main.py --dataset CIC-IDS2017 --roc True --epochs 50
 
 | Argument | Type | Default | Description |
 |----------|------|---------|-------------|
-| `--dataset` | str | `TON_IoT` | Experimental dataset |
+| `--dataset` | str | `CIC-IDS2017` | Experimental dataset |
 | `--file` | str | `df.csv` | Dataset file name |
 | `--binary` | bool | `True` | Binary or multiclass classification |
 | `--batchsize` | int | `128` | Batch size for training |
@@ -105,13 +101,6 @@ python main.py --dataset CIC-IDS2017 --roc True --epochs 50
 | `--train_if` | bool | `True` | Whether to train the model |
 | `--roc` | bool | `True` | Generate ROC curves |
 
-
-### Monitor Training
-
-```bash
-# Start TensorBoard to monitor training progress
-tensorboard --logdir=logs/
-```
 
 ## 📊 Results and Outputs
 

@@ -34,15 +34,13 @@ pip install -r requirements.txt
 
 **Sample requirements.txt:**
 ```
-torch>=1.12.0
-torch-geometric>=2.3.0
-pandas>=1.5.0
-numpy>=1.21.0
-scikit-learn>=1.1.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
-tensorboard>=2.10.0
-tqdm>=4.64.0
+absl-py==2.1.0
+aiohttp==3.9.3
+aiosignal==1.3.1
+asttokens==3.0.0
+async-timeout==4.0.3
+attrs==23.2.0
+backcall==0.2.0
 ```
 
 ## 🚀 Run Commands

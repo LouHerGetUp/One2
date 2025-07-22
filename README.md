@@ -1,5 +1,5 @@
-# 🛡️ One^2: An Intrusion Detection System for Both Internal and External Vehicular Network from Weak Labeled Data
-A PyTorch implementation of One^2 for intrusion detection across multiple IVN and EVN datasets.
+# 🛡️ One<sup>2</sup>: An Intrusion Detection System for Both Internal and External Vehicular Network from Weak Labeled Data
+A PyTorch implementation of One<sup>2</sup> for intrusion detection across multiple IVN and EVN datasets.
 
 ## 📁 Project Structure
 

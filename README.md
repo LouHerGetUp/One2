@@ -52,11 +52,8 @@ tqdm>=4.64.0
 ### Basic Training
 
 ```bash
-# Train HGT model on TON_IoT dataset (binary classification)
-python main.py --dataset TON_IoT --binary True --epochs 100
-
-# Train on CIC-IDS2017 dataset (multiclass classification)
-python main.py --dataset CIC-IDS2017 --binary False --epochs 50
+# Train model on CIC-IDS2017 dataset (binary classification)
+python main.py --dataset CIC-IDS2017 --binary True --epochs 20
 ```
 
 ### Advanced Configuration

@@ -72,6 +72,7 @@ python main.py \
 
 # Evaluation only (no training)
 python main.py --dataset CIC-IDS2017 --train_if False --roc True
+```
 
 ### Supported Datasets
 

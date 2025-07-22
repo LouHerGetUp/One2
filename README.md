@@ -20,10 +20,10 @@ A PyTorch implementation of One<sup>2</sup> for intrusion detection across multi
 
 ```bash
 # Create a new conda environment
-conda create -n hgt-ids python=3.8 -y
+conda create -n hgt python=3.8
 
 # Activate the environment
-conda activate hgt-ids
+conda activate hgt
 ```
 
 ### Install PyTorch and PyTorch Geometric

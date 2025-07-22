@@ -1,7 +1,5 @@
-# One2
-# 🛡️ HGT-Based Network Intrusion Detection System
-
-A PyTorch implementation of Heterogeneous Graph Transformer (HGT) for network intrusion detection across multiple cybersecurity datasets.
+# 🛡️ One^2: An Intrusion Detection System for Both Internal and External Vehicular Network from Weak Labeled Data
+A PyTorch implementation of One^2 for intrusion detection across multiple IVN and EVN datasets.
 
 ## 📁 Project Structure
 

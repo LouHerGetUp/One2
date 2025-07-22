@@ -11,8 +11,7 @@ A PyTorch implementation of One<sup>2</sup> for intrusion detection across multi
 ├── utils.py               # Utility functions
 ├── dataset/               # Dataset files
 ├── model/                 # Saved checkpoints
-├── output/                # Training metrics
-└── logs/                  # TensorBoard logs
+├── output/                # Output files
 ```
 
 ## 🛠️ Environment Setup

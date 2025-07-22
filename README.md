@@ -28,8 +28,6 @@ conda activate hgt-ids
 
 ### Install from requirements.txt
 
-If you have a `requirements.txt` file:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -106,7 +104,7 @@ python main.py --dataset CIC-IDS2017 --roc True --epochs 50
 | `--cuda` | str | `cuda:0` | CUDA device |
 | `--train_if` | bool | `True` | Whether to train the model |
 | `--roc` | bool | `True` | Generate ROC curves |
-| `--attack` | bool | `False` | Enable adversarial evaluation |
+
 
 ### Monitor Training
 
